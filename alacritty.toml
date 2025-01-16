@@ -1,0 +1,46 @@
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/ayu_mirage.toml"
+]
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+ZELLIJ_AUTO_ATTACH = "true"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[cursor.style]
+shape = "Beam"
+
+[window]
+decorations = "Transparent"
+blur = true
+opacity = 0.9
+
+[window.dimensions]
+columns = 100
+lines = 24
+
+[selection]
+save_to_clipboard = true
+
+[font]
+size = 19.0
+
+[font.bold]
+family = "FiraCode"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode"
+style = "Regular"
+
+
