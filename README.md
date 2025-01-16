@@ -13,8 +13,16 @@
 ```
 
 # 安装此配置文件
-```bash
-git clone https://github.com/jing6a70/alacritty_tmol.git ~/.config/alacritty
-```
+1. 安装次配置
+  ```bash
+  mkdir -p ~/.config/alacritty
+  git clone https://github.com/jing6a70/alacritty_tmol.git ~/.config/alacritty
+  ```
 
-
+2. 安装配置文件. 主题git仓库地址<可以查看各种主题> : https://github.com/alacritty/alacritty-theme.git
+   ```bash
+   # We use Alacritty's default Linux config directory as our storage location here.
+   mkdir -p ~/.config/alacritty/themes
+   git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+   ```
+   
