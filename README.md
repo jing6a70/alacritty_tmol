@@ -14,10 +14,10 @@
 
 # 安装此配置文件
 1. 安装次配置
-  ```bash
-  mkdir -p ~/.config/alacritty
-  git clone https://github.com/jing6a70/alacritty_tmol.git ~/.config/alacritty
-  ```
+   ```bash
+   mkdir -p ~/.config/alacritty
+   git clone https://github.com/jing6a70/alacritty_tmol.git ~/.config/alacritty
+   ```
 
 2. 安装配置文件. 主题git仓库地址<可以查看各种主题> : https://github.com/alacritty/alacritty-theme.git
    ```bash
