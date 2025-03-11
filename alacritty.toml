@@ -1,8 +1,4 @@
-
-[general]
-import = [
-    "~/.config/alacritty/themes/themes/ayu_mirage.toml"
-]
+import = [ "~/.config/alacritty/themes/themes/ayu_mirage.toml" ]
 
 live_config_reload = true
 
